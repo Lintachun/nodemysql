@@ -1,0 +1,219 @@
+.container {
+  max-width: 100%;
+  margin: 20px auto;
+  height: 90vh;
+  border: 1px;
+  border-style: dashed;
+}
+
+tr:nth-child(even) {
+  background: rgb(82, 81, 81)
+}
+
+tr:nth-child(odd) {
+  background: #414040
+}
+
+td {
+  width: 100px;
+}
+
+body {
+  color: rgb(215, 213, 213);
+  background-color: #373939;
+  border-color: #0c0c0c;
+
+}
+
+
+.img {
+  width: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px
+}
+
+.top {
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  width: 100%;
+  border: 0.1px rgb(90, 88, 88) solid;
+}
+
+.testtop {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border: 0.1px rgb(90, 88, 88) solid;
+}
+
+.down {
+  border: 0.1px rgb(90, 88, 88) solid;
+}
+
+.tableleft {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 85vh;
+  border-color: #0c0c0c;
+  overflow: auto;
+  border: 0.1px rgb(90, 88, 88) solid;
+}
+
+.tablecss {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 85vh;
+  border-color: #0c0c0c;
+  overflow: auto;
+  border: 0.1px rgb(90, 88, 88) solid;
+  left: 20.5%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 19.5%;
+  height: 85vh;
+
+}
+
+.add {
+  border: 0.1px rgb(90, 88, 88) solid;
+  width: 100%;
+  height: 150px;
+  overflow: auto;
+
+}
+
+.select {
+  background-color: #373939;
+  color: rgb(186, 185, 185);
+  border: 0.1px rgb(90, 88, 88) solid;
+}
+.addinput{
+  background-color: #373939;
+  color: rgb(186, 185, 185);
+  border: 0.1px rgb(90, 88, 88) solid;
+}
+.buttonstyle {
+  background-color: #373939;
+  color: rgb(186, 185, 185);
+  border: 0.1px rgb(90, 88, 88) solid;
+}
+
+.buttonstyle2 {
+  text-align: left;
+  width: 100%;
+  margin-top: 2px;
+  background-color: #373939;
+  color: rgb(186, 185, 185);
+  border: 0.1px rgb(90, 88, 88) solid;
+}
+
+.buttonstyle3 {
+  text-align: left;
+  width: auto;
+  min-width: 100%;
+  white-space: nowrap;
+  margin-top: 2px;
+  background-color: #373939;
+  color: rgb(186, 185, 185);
+  border: 0.1px rgb(90, 88, 88) solid;
+}
+
+.buttonstyle:hover,
+.buttonstyle2:hover,
+.buttonstyle3:hover {
+  background-color: #818686;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: exe;
+  animation-duration: 0.5s;
+  background-color: rgba(26, 25, 25, 0.2);
+}
+@keyframes exe {
+  0%   {top:-100%;}
+  100% {top:0%;}
+}
+.button {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  src: '/src/icon/database-icon.png';
+}
+
+.eeee {
+  margin: auto;
+  top: 25px;
+  position: absolute;
+  background-color: #373939;
+  color: rgb(186, 185, 185);
+
+}
+
+.popup-inner {
+  position: relative;
+  padding: 30px;
+  width: 30%;
+  top: 20%;
+  left:32.5%;
+  max-width: 640px;
+  border-radius: 10px;
+  background-color: rgb(54, 53, 53);
+  animation-name: ex;
+  animation-duration: 0.5s;
+}
+@keyframes ex {
+  0%   {left:32.5%; top:-100%;}
+  100% {left:32.5%; top:20%;}
+}
+.popup-inner {
+  position: absolute;
+
+}
+
+.close-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 0.1px rgb(90, 88, 88) solid;
+  background-color: rgb(54, 53, 53);
+  border-color: rgb(54, 53, 53);
+  border-radius: 0px 10px 0px 0px;
+}
+
+.close-btn:hover {
+  background-color: red;
+}
+
+.modeldiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.databasebutton {
+  position: absolute;
+  right: 7%;
+  background-color: rgb(116, 115, 115);
+  border: 0.1px rgb(41, 40, 40) solid;
+}
