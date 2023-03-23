@@ -1,3 +1,7 @@
+先開啟 mysql 資料庫
+
+之後開啟api2.js 跟資料庫連線 記得修改帳號跟密碼
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
